@@ -9,7 +9,7 @@ import AvatarView
 
 override func viewDidLoad {
   super.viewDidLoad()
-  
+
   // Create the avatar view
   avatarView = AvatarView(image: UIImage(named: "avatar")!)
   avatarView.center = view.center
@@ -37,3 +37,6 @@ If you are new to [Carthage](https://github.com/Carthage/Carthage) you can find 
 2. run `carthage update`
 3. copy the `AvatarView.framework` into your project. Make sure to uncheck 'Copy items if needed'
 4. Update your build phases to copy the framework. If in doubt on how to do this, please check the [carthage documentation](https://github.com/Carthage/Carthage)
+
+### LICENSE
+[The MIT License](https://github.com/chrene/LICENSE)
