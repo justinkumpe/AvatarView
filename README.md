@@ -39,4 +39,4 @@ If you are new to [Carthage](https://github.com/Carthage/Carthage) you can find 
 4. Update your build phases to copy the framework. If in doubt on how to do this, please check the [carthage documentation](https://github.com/Carthage/Carthage)
 
 ### LICENSE
-[The MIT License](https://github.com/chrene/LICENSE)
+[The MIT License](https://github.com/chrene/AvatarView/LICENSE)
