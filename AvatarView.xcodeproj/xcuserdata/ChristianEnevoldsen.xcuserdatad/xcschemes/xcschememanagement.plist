@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>AvatarViewDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>2DFE43891B262E9D007844FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2DFE43A01B26335A007844FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2DFE43B41B26335A007844FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
