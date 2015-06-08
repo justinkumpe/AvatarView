@@ -20,7 +20,7 @@ override func viewDidLoad {
 #### Demo
 To get a grasp you can download the [zip](https://github.com/chrene/AvatarView/archive/master.zip) and tryout the demo
 
-[Demo](http://i.imgur.com/PDX9zNc.png)
+[Demo](http://i.imgur.com/jTvMjIz.png)
 
 ## Installation
 
