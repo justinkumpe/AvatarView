@@ -15,7 +15,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    view.backgroundColor = UIColor(white: 0.7, alpha: 1.0)
+    view.backgroundColor = UIColor(white: 0.65, alpha: 1.0)
     avatarView = AvatarView(image: UIImage(named: "avatar")!)
     avatarView.center = view.center
     view.addSubview(avatarView)
