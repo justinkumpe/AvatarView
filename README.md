@@ -18,7 +18,7 @@ override func viewDidLoad {
 ```
 
 #### Demo
-To get a grasp you can also download the zip and tryout the demo
+To get a grasp you can download the [zip](https://github.com/chrene/AvatarView/archive/master.zip) and tryout the demo
 
 ![Screenshot](http://i.imgur.com/PDX9zNc.png "AvatarView Demo app")
 
@@ -26,9 +26,9 @@ To get a grasp you can also download the zip and tryout the demo
 ## Installation
 
 ### Manual
-1. Download the zip
+1. Download the [zip](https://github.com/chrene/AvatarView/archive/master.zip)
 2. Unpack
-3. Drag `AvatarView.swift` into your project
+3. Drag `AvatarView/AvatarView.swift` into your project
 
 ### Carthage
 
