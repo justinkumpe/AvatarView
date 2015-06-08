@@ -32,9 +32,9 @@ To get a grasp you can also download the zip and tryout the demo
 
 ### Carthage
 
-If you are new to `Carthage` you can find info here
+If you are new to [Carthage](https://github.com/Carthage/Carthage) you can find info [here](https://github.com/Carthage/Carthage)
 
-1. insert `github "chrene/AvatarView"` into the `Cartfile`
+1. insert `github "chrene/AvatarView"` into the **Cartfile**
 2. run `carthage update`
 3. copy the `AvatarView.framework` into your project. Make sure to uncheck 'Copy items if needed'
-4. Update your build phases to copy the framework. If in doubt on how to do this, please check the carthage documentation
+4. Update your build phases to copy the framework. If in doubt on how to do this, please check the [carthage documentation](https://github.com/Carthage/Carthage)
