@@ -16,8 +16,9 @@ class ViewController: UIViewController {
     super.viewDidLoad()
 
     view.backgroundColor = UIColor(white: 0.65, alpha: 1.0)
-    avatarView = AvatarView(image: UIImage(named: "avatar")!)
+    avatarView = AvatarView(image: UIImage(named: "profile")!)
     avatarView.center = view.center
+    avatarView.bounds = CGRectMake(0, 0, 96, 96)
     view.addSubview(avatarView)
   }
 
