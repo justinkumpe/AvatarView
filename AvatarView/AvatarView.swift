@@ -57,6 +57,7 @@ public class AvatarView: UIView {
   public required init(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     setup()
+    setupDefaults()
   }
 
   // Sets up the view after it's initialized
