@@ -54,7 +54,7 @@ public class AvatarView: UIView {
     setupDefaults()
   }
 
-  public required init(coder aDecoder: NSCoder) {
+  public required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     setup()
   }
@@ -91,7 +91,7 @@ public class AvatarView: UIView {
   }
 
   // Layouts the layers
-  public override func layoutSublayersOfLayer(layer: CALayer!) {
+  public override func layoutSublayersOfLayer(layer: CALayer) {
     super.layoutSublayersOfLayer(layer)
 
     // Makes room for the the border
