@@ -218,6 +218,7 @@
 		2DFE43761B262E9D007844FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = che;
 				TargetAttributes = {
@@ -522,6 +523,7 @@
 				2DFE43971B262E9D007844FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFE43981B262E9D007844FA /* Build configuration list for PBXNativeTarget "AvatarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				2DFE439A1B262E9D007844FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFE43BD1B26335A007844FA /* Build configuration list for PBXNativeTarget "AvatarViewDemo" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +541,7 @@
 				2DFE43BF1B26335A007844FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
