@@ -8,21 +8,21 @@
 
 import UIKit
 
-public class AvatarView: UIView {
+open class AvatarView: UIView {
 
   // The UIImageView that displays the avatar
-  public let imageView = UIImageView()
+  open let imageView = UIImageView()
 
   // Responsible for drawing the border
   // Do not set the strokeColor or lineWidth on this. Instead use the API
   // see borderColor, borderWidth
-  public let borderLayer = CAShapeLayer()
+  open let borderLayer = CAShapeLayer()
 
   // The images mask
-  private let imageMask = CAShapeLayer()
+  fileprivate let imageMask = CAShapeLayer()
 
   // The image / avatar
-  public var image: UIImage? {
+  open var image: UIImage? {
     didSet {
       imageView.image = image
     }
@@ -30,15 +30,15 @@ public class AvatarView: UIView {
 
   // The border color for the avatar
   // Setting the borderColor updates the borderLayers strokeColor
-  public var borderColor: UIColor? {
+  open var borderColor: UIColor? {
     didSet {
-      borderLayer.strokeColor = borderColor?.CGColor
+      borderLayer.strokeColor = borderColor?.cgColor
     }
   }
 
   // The border width for the avatar
   // Setting the borderWidth updates the borderLayers lineWidth
-  public var borderWidth: CGFloat = 0 {
+  open var borderWidth: CGFloat = 0 {
     didSet {
       borderLayer.lineWidth = borderWidth * 2
     }
@@ -61,12 +61,12 @@ public class AvatarView: UIView {
   }
 
   // Sets up the view after it's initialized
-  private func setup() {
+  fileprivate func setup() {
     layer.addSublayer(borderLayer)
     addSubview(imageView)
 
     // Smoothens the border
-    borderLayer.contentsScale = 2.0 * UIScreen.mainScreen().scale
+    borderLayer.contentsScale = 2.0 * UIScreen.main.scale
 
     // Explicitly set the image
     imageView.image = image
@@ -78,29 +78,29 @@ public class AvatarView: UIView {
   // Sets up the default colors etc.
   func setupDefaults() {
     // Keep the images dimensions
-    imageView.contentMode = .ScaleAspectFill
+    imageView.contentMode = .scaleAspectFill
 
     // Set default border widths
     borderWidth = 1.0
-    borderColor = .whiteColor()
+    borderColor = .white()
   }
 
   // Layouts the subview
-  public override func layoutSubviews() {
+  open override func layoutSubviews() {
     super.layoutSubviews()
     imageView.frame = bounds
   }
 
   // Layouts the layers
-  public override func layoutSublayersOfLayer(layer: CALayer) {
+  open override func layoutSublayersOfLayer(_ layer: CALayer) {
     super.layoutSublayersOfLayer(layer)
 
     // Makes room for the the border
     let insetsSize = borderWidth
-    let rectInsets = CGRectInset(bounds, insetsSize, insetsSize)
+    let rectInsets = bounds.insetBy(dx: insetsSize, dy: insetsSize)
 
     // Update the path to fit the frame
-    imageMask.path = UIBezierPath(ovalInRect: rectInsets).CGPath
+    imageMask.path = UIBezierPath(ovalIn: rectInsets).cgPath
     borderLayer.path = imageMask.path
     borderLayer.frame = bounds
   }
