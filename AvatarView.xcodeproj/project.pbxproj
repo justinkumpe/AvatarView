@@ -168,6 +168,7 @@
 					};
 					2DFE43A01B26335A007844FA = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
