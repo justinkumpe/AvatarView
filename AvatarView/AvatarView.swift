@@ -81,8 +81,8 @@ open class AvatarView: UIView {
     imageView.contentMode = .scaleAspectFill
 
     // Set default border widths
-    borderWidth = 1.0
-    borderColor = .white()
+    layer.borderWidth = 1.0
+    layer.borderColor = UIColor.white.cgColor
   }
 
   // Layouts the subview
@@ -92,8 +92,9 @@ open class AvatarView: UIView {
   }
 
   // Layouts the layers
-  open override func layoutSublayersOfLayer(_ layer: CALayer) {
-    super.layoutSublayersOfLayer(layer)
+
+  open override func layoutSublayers(of layer: CALayer) {
+    super.layoutSublayers(of: layer)
 
     // Makes room for the the border
     let insetsSize = borderWidth
