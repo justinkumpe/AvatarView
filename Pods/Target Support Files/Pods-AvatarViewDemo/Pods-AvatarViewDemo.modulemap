@@ -1,6 +1,0 @@
-framework module Pods_AvatarViewDemo {
-  umbrella header "Pods-AvatarViewDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
