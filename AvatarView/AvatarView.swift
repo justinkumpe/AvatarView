@@ -81,8 +81,8 @@ open class AvatarView: UIView {
     imageView.contentMode = .scaleAspectFill
 
     // Set default border widths
-    layer.borderWidth = 1.0
-    layer.borderColor = UIColor.white.cgColor
+    borderWidth = 1.0
+    borderColor = UIColor.white
   }
 
   // Layouts the subview

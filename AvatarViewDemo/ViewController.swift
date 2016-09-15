@@ -15,14 +15,14 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    view.backgroundColor = UIColor(white: 0.65, alpha: 1.0)
+    view.backgroundColor = UIColor(white: 0.18, alpha: 1.0)
     avatarView = AvatarView(image: UIImage(named: "profile")!)
     avatarView.center = view.center
-    avatarView.bounds = CGRectMake(0, 0, 96, 96)
+    avatarView.bounds = CGRect(x: 0, y: 0, width: 96, height: 96)
     view.addSubview(avatarView)
   }
 
-  override func viewDidAppear(animated: Bool) {
+  override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
   }
 }
