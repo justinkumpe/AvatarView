@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.version      = "2.0.1"
   s.summary = "Easy to use view for displaying avatars"
   s.description  = <<-DESC
-                    Easy to use view for displaying avatars
+                    Easy to use view for displaying avatars.
                    DESC
 
   s.homepage     = "http://github.com/chrene/AvatarView"
@@ -33,6 +33,7 @@ Pod::Spec.new do |s|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform = :ios
   s.ios.deployment_target = '9.0'
+  s.ios.framework = 'UIKit'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
