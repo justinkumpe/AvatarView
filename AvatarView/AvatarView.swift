@@ -11,12 +11,12 @@ import UIKit
 open class AvatarView: UIView {
 
   // The UIImageView that displays the avatar
-  open let imageView = UIImageView()
+    public let imageView = UIImageView()
 
   // Responsible for drawing the border
   // Do not set the strokeColor or lineWidth on this. Instead use the API
   // see borderColor, borderWidth
-  open let borderLayer = CAShapeLayer()
+    public let borderLayer = CAShapeLayer()
 
   // The images mask
   fileprivate let imageMask = CAShapeLayer()
