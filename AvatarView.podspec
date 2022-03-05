@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AvatarView"
-  s.version      = "2.0.2"
+  s.version      = "2.0.3"
   s.summary = "Easy to use view for displaying avatars"
   s.description  = <<-DESC
                     Easy to use view for displaying avatars.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '15.0'
   s.ios.framework = 'UIKit'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
