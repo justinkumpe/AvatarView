@@ -9,14 +9,15 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "AvatarView"
-  s.version      = "2.0.3"
+  s.name         = "AvatarView-fork"
+  s.version      = ENV['LIB_VERSION'] || '2.0' #fallback to major version  
+  s.swift_version = "5"
   s.summary = "Easy to use view for displaying avatars"
   s.description  = <<-DESC
-                    Easy to use view for displaying avatars.
+                    Easy to use view for displaying avatars. This repo was forked from chrene/AvatarView
                    DESC
 
-  s.homepage     = "http://github.com/chrene/AvatarView"
+  s.homepage     = "https://github.com/kumpeapps/AvatarView-fork"
   s.screenshots  = "http://i.imgur.com/wbubJCe.png?1"
 
 
@@ -28,7 +29,7 @@ Pod::Spec.new do |s|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.author             = { "chrene" => "c.enevoldsen@gmail.com" }
+  s.author             = { "Justin Kumpe" => "helpdesk@kumpeapps.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform = :ios
@@ -37,7 +38,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/chrene/AvatarView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kumpeapps/AvatarView-fork.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
