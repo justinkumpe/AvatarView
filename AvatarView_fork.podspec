@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "AvatarView-fork"
+  s.name         = "AvatarView_fork"
   s.version      = ENV['LIB_VERSION'] || '2.0' #fallback to major version  
   s.swift_version = "5"
   s.summary = "Easy to use view for displaying avatars"
