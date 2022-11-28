@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "AvatarView_fork"
+  s.name         = "AvatarView"
   s.version      = ENV['LIB_VERSION'] || '2.0' #fallback to major version  
   s.swift_version = "5"
   s.summary = "Easy to use view for displaying avatars"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                     Easy to use view for displaying avatars. This repo was forked from chrene/AvatarView
                    DESC
 
-  s.homepage     = "https://github.com/kumpeapps/AvatarView-fork"
+  s.homepage     = "https://github.com/justinkumpe/AvatarView"
   s.screenshots  = "http://i.imgur.com/wbubJCe.png?1"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/kumpeapps/AvatarView-fork.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/justinkumpe/AvatarView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
